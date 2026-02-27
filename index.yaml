@@ -3,6 +3,16 @@ entries:
   veg-app:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2026-02-27T10:07:33.041815253Z"
+    description: A Helm chart for Kubernetes
+    digest: 0f16673d59c20fbb06ecd81589b4f2deb4630b214ec6165c028cebb986784ad8
+    name: veg-app
+    type: application
+    urls:
+    - https://github.com/Msocial123/Vegetable-app-Helm-chart/releases/download/veg-app-0.1.1/veg-app-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2026-02-27T09:52:44.303286877Z"
     description: A Helm chart for Kubernetes
     digest: 6752a8c078caa80d45505dafad6714e1a6a0da575eb718ad2778b41c43c5a2e6
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://github.com/Msocial123/Vegetable-app-Helm-chart/releases/download/veg-app-0.1.0/veg-app-0.1.0.tgz
     version: 0.1.0
-generated: "2026-02-27T09:52:44.303297578Z"
+generated: "2026-02-27T10:07:33.04182423Z"
