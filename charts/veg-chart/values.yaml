@@ -20,7 +20,7 @@ deployment:
       name: MONGO_URI
       valueFrom:
         configMapKeyRef:
-          name: retail-release-config
+          name: vegetable-app-config
           key: MONGO_URI
 
 #service details
@@ -51,7 +51,7 @@ statefulset:
        name: MONGO_INITDB_DATABASE
        valueFrom:
          configMapKeyRef:
-           name: retail-release-config
+           name: vegetable-app-config
            key: MONGO_INITDB_DATABASE
   volumeClaims:
     name: mongodb-data
