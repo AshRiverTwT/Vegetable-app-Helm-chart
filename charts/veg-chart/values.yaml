@@ -1,4 +1,4 @@
-namespace: murali-ns
+namespace: ash-ns
 
 #configmap details
 configmap:

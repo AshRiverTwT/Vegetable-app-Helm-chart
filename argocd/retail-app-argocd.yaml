@@ -8,7 +8,7 @@ spec:
 
   source:
     # GitHub Pages URL (Helm repository)
-    repoURL: https://Msocial123.github.io/Vegetable-app-Helm-chart
+    repoURL: https://github.com/AshRiverTwT/Vegetable-app-Helm-chart.git
     chart: veg-app
     # Deploy latest released chart version
     targetRevision: "*"  # it will deploy the latest version of the chart available in the helm repository
@@ -18,7 +18,7 @@ spec:
 
   destination:
     server: https://kubernetes.default.svc
-    namespace: murali-ns 
+    namespace: ash-ns 
 
   syncPolicy:
     automated:
