@@ -26,7 +26,7 @@ spec:
         - name: {{ .Values.statefulset.containers.env.name }}
           valueFrom:
             configMapKeyRef:
-              name: {{ .Values.statefulset.containers.env.valueFrom.configMapKeyRef.name }}
+              name: {{ .Release.Name }}-config
               key: {{ .Values.statefulset.containers.env.valueFrom.configMapKeyRef.key }}
 
   volumeClaimTemplates:  # it is referencing pvc automatically instead of refering pvc manually in the pod or yaml file
